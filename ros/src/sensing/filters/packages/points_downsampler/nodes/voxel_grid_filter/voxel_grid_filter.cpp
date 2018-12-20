@@ -164,7 +164,7 @@ int main(int argc, char** argv)
 
   // Subscribers
   ros::Subscriber config_sub = nh.subscribe("config/voxel_grid_filter", 10, config_callback);
-  ros::Subscriber scan_sub = nh.subscribe("velodyne_points_0", 10, scan_callback);
+  ros::Subscriber scan_sub = nh.subscribe("velodyne_points", 10, scan_callback);
 
   ros::spin();
 

@@ -199,7 +199,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.03
       Style: Points
-      Topic: /velodyne_points_0
+      Topic: /velodyne_points
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
